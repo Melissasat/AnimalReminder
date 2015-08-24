@@ -14,6 +14,8 @@
 		A11E69311B8B2CA300AA6CAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11E69301B8B2CA300AA6CAB /* Images.xcassets */; };
 		A11E69341B8B2CA300AA6CAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11E69321B8B2CA300AA6CAB /* LaunchScreen.xib */; };
 		A11E69401B8B2CA300AA6CAB /* AnimalsReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E693F1B8B2CA300AA6CAB /* AnimalsReminderTests.swift */; };
+		A11E694C1B8B319000AA6CAB /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E694B1B8B319000AA6CAB /* AnimalViewController.swift */; };
+		A11E694E1B8B5E1200AA6CAB /* LoadAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E694D1B8B5E1200AA6CAB /* LoadAnimalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		A11E69391B8B2CA300AA6CAB /* AnimalsReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11E693E1B8B2CA300AA6CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11E693F1B8B2CA300AA6CAB /* AnimalsReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsReminderTests.swift; sourceTree = "<group>"; };
+		A11E694B1B8B319000AA6CAB /* AnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		A11E694D1B8B5E1200AA6CAB /* LoadAnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadAnimalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				A11E69261B8B2CA300AA6CAB /* AppDelegate.swift */,
 				A11E692B1B8B2CA300AA6CAB /* ViewController.swift */,
+				A11E694D1B8B5E1200AA6CAB /* LoadAnimalViewController.swift */,
+				A11E694B1B8B319000AA6CAB /* AnimalViewController.swift */,
 				A11E692D1B8B2CA300AA6CAB /* Main.storyboard */,
 				A11E69301B8B2CA300AA6CAB /* Images.xcassets */,
 				A11E69321B8B2CA300AA6CAB /* LaunchScreen.xib */,
@@ -217,7 +223,9 @@
 			files = (
 				A11E692C1B8B2CA300AA6CAB /* ViewController.swift in Sources */,
 				A11E69271B8B2CA300AA6CAB /* AppDelegate.swift in Sources */,
+				A11E694C1B8B319000AA6CAB /* AnimalViewController.swift in Sources */,
 				A11E692A1B8B2CA300AA6CAB /* AnimalsReminder.xcdatamodeld in Sources */,
+				A11E694E1B8B5E1200AA6CAB /* LoadAnimalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
