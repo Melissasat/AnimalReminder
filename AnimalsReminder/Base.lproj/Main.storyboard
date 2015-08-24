@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-170" y="322"/>
+            <point key="canvasLocation" x="-303" y="316"/>
         </scene>
         <!--Animal View Controller-->
         <scene sceneID="mbq-Jy-RUR">
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddQ-pX-dKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="152" y="322"/>
+            <point key="canvasLocation" x="-96" y="316"/>
         </scene>
         <!--Load Animal View Controller-->
         <scene sceneID="8Ni-gC-bSH">
@@ -150,7 +150,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="siQ-pf-M3A">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="15" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="All my Pet !" id="149-QG-P0D"/>
                                 </items>
@@ -171,22 +171,49 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RaS-IY-GEC">
-                                <rect key="frame" x="6" y="59" width="320" height="162"/>
+                                <rect key="frame" x="0.0" y="59" width="320" height="162"/>
                                 <connections>
                                     <outlet property="dataSource" destination="hGU-x1-2KK" id="GE8-Ef-8pd"/>
                                     <outlet property="delegate" destination="hGU-x1-2KK" id="edV-Bc-RBa"/>
                                 </connections>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-yf-QK9">
+                                <rect key="frame" x="0.0" y="229" width="121" height="39"/>
+                                <color key="backgroundColor" red="0.20300594878296296" green="1" blue="0.17122369349835265" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8x9-uw-471">
+                                <rect key="frame" x="0.0" y="297" width="121" height="46"/>
+                                <color key="backgroundColor" red="1" green="0.10444720708061794" blue="0.084970055115885179" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cK-ES-oc9">
+                                <rect key="frame" x="0.0" y="364" width="121" height="36"/>
+                                <color key="backgroundColor" red="0.97686501623111455" green="0.27071878205620148" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" red="0.99531090262658495" green="0.57871978284917902" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="1" green="0.55582290847558924" blue="0.68424940668513046" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.96183484140243514" blue="0.64266932859032377" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="AnimalViewLabel" destination="x8v-tk-EPo" id="SiW-6O-T4T"/>
+                        <outlet property="animalAgeLabel" destination="8x9-uw-471" id="G4o-1Y-Lkm"/>
+                        <outlet property="animalNameLabel" destination="8nS-yf-QK9" id="smu-ZN-ddI"/>
+                        <outlet property="animalTypeLabel" destination="5cK-ES-oc9" id="jmq-G3-4iD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LwI-6X-Bce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="365" y="315"/>
+            <point key="canvasLocation" x="241" y="316"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -196,7 +223,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="FEE-zN-3UI"/>
-        <segue reference="GOv-T5-L5B"/>
+        <segue reference="urQ-8K-DHr"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

@@ -11,8 +11,11 @@ import CoreData
 
 class LoadAnimalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
-    @IBOutlet weak var animalViewLabel: UILabel!
 
+    @IBOutlet weak var animalNameLabel: UILabel!
+    @IBOutlet weak var animalAgeLabel: UILabel!
+    @IBOutlet weak var animalTypeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //saveInformation
@@ -63,10 +66,12 @@ class LoadAnimalViewController: UIViewController, UIPickerViewDelegate, UIPicker
             var request = NSFetchRequest(entityName: "Animals")
             
             var results:NSArray = context.executeFetchRequest(request, error: nil)!
-            println(results[row].name)
+            animalNameLabel.text = results[row].name
+            animalTypeLabel.text = results[row].type
 
         }
 
+    
     /*
     // MARK: - Navigation
 
