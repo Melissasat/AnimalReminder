@@ -16,6 +16,7 @@
 		A11E69401B8B2CA300AA6CAB /* AnimalsReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E693F1B8B2CA300AA6CAB /* AnimalsReminderTests.swift */; };
 		A11E694C1B8B319000AA6CAB /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E694B1B8B319000AA6CAB /* AnimalViewController.swift */; };
 		A11E694E1B8B5E1200AA6CAB /* LoadAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E694D1B8B5E1200AA6CAB /* LoadAnimalViewController.swift */; };
+		A11E69501B8F3A5B00AA6CAB /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11E694F1B8F3A5B00AA6CAB /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A11E693F1B8B2CA300AA6CAB /* AnimalsReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsReminderTests.swift; sourceTree = "<group>"; };
 		A11E694B1B8B319000AA6CAB /* AnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
 		A11E694D1B8B5E1200AA6CAB /* LoadAnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadAnimalViewController.swift; sourceTree = "<group>"; };
+		A11E694F1B8F3A5B00AA6CAB /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				A11E69301B8B2CA300AA6CAB /* Images.xcassets */,
 				A11E69321B8B2CA300AA6CAB /* LaunchScreen.xib */,
 				A11E69281B8B2CA300AA6CAB /* AnimalsReminder.xcdatamodeld */,
+				A11E694F1B8F3A5B00AA6CAB /* Images-2.xcassets */,
 				A11E69241B8B2CA300AA6CAB /* Supporting Files */,
 			);
 			path = AnimalsReminder;
@@ -203,6 +206,7 @@
 			files = (
 				A11E692F1B8B2CA300AA6CAB /* Main.storyboard in Resources */,
 				A11E69341B8B2CA300AA6CAB /* LaunchScreen.xib in Resources */,
+				A11E69501B8F3A5B00AA6CAB /* Images-2.xcassets in Resources */,
 				A11E69311B8B2CA300AA6CAB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AnimalsReminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AnimalsReminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

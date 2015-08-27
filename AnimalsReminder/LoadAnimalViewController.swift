@@ -18,11 +18,13 @@ class LoadAnimalViewController: UIViewController, UIPickerViewDelegate, UIPicker
     @IBOutlet weak var updateAnimalBtn: UIButton!
     @IBOutlet weak var updateNameLabel: UITextField!
     @IBOutlet weak var validateUpdate: UIButton!
+    @IBOutlet weak var newNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateNameLabel.alpha = 0
         validateUpdate.hidden = true
+        newNameLabel.hidden = true
         //saveInformation
         // Do any additional setup after loading the view.
     }
@@ -80,11 +82,12 @@ class LoadAnimalViewController: UIViewController, UIPickerViewDelegate, UIPicker
             
             //UpdateBtn
             updateAnimalBtn.setTitle("Modify" , forState: .Normal)
-            validateUpdate.hidden = false
         }
     
     @IBAction func UpdateOnClic(sender: AnyObject) {
+        validateUpdate.hidden = false
         updateNameLabel.alpha = 1
+        newNameLabel.hidden = false
         
         println("update ask")
     }
