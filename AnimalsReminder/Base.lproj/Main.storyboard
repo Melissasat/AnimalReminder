@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddQ-pX-dKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-96" y="316"/>
+            <point key="canvasLocation" x="-56" y="308"/>
         </scene>
         <!--Load Animal View Controller-->
         <scene sceneID="8Ni-gC-bSH">
@@ -158,6 +158,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awq-w4-z0n">
                                 <rect key="frame" x="143" y="530" width="46" height="30"/>
                                 <state key="normal" title="Retour">
+                                    <color key="titleColor" red="0.97686501619999999" green="0.2707187821" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -171,29 +172,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RaS-IY-GEC">
-                                <rect key="frame" x="0.0" y="59" width="320" height="162"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="162"/>
                                 <connections>
                                     <outlet property="dataSource" destination="hGU-x1-2KK" id="GE8-Ef-8pd"/>
                                     <outlet property="delegate" destination="hGU-x1-2KK" id="edV-Bc-RBa"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-yf-QK9">
-                                <rect key="frame" x="0.0" y="229" width="121" height="39"/>
-                                <color key="backgroundColor" red="0.20300594878296296" green="1" blue="0.17122369349835265" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="100" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-yf-QK9">
+                                <rect key="frame" x="16" y="220" width="121" height="33"/>
+                                <color key="backgroundColor" red="1" green="0.89635356673023103" blue="0.94658180588017582" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8x9-uw-471">
-                                <rect key="frame" x="0.0" y="297" width="121" height="46"/>
-                                <color key="backgroundColor" red="1" green="0.10444720708061794" blue="0.084970055115885179" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cK-ES-oc9">
-                                <rect key="frame" x="0.0" y="364" width="121" height="36"/>
-                                <color key="backgroundColor" red="0.97686501623111455" green="0.27071878205620148" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="100" translatesAutoresizingMaskIntoConstraints="NO" id="5cK-ES-oc9">
+                                <rect key="frame" x="183" y="220" width="121" height="33"/>
+                                <color key="backgroundColor" red="1" green="0.89635356673023103" blue="0.94658180588017582" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="">
                                     <accessibilityTraits key="traits" none="YES"/>
                                 </accessibility>
@@ -202,10 +196,46 @@
                                 <color key="highlightedColor" red="0.99531090262658495" green="0.57871978284917902" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="1" green="0.55582290847558924" blue="0.68424940668513046" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loH-Qd-Qc6">
+                                <rect key="frame" x="50" y="456" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UpdateOnClic:" destination="hGU-x1-2KK" eventType="touchUpInside" id="6le-VU-Nfh"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DFw-sF-FjY">
+                                <rect key="frame" x="16" y="338" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="100" translatesAutoresizingMaskIntoConstraints="NO" id="8x9-uw-471">
+                                <rect key="frame" x="106" y="261" width="121" height="46"/>
+                                <color key="backgroundColor" red="1" green="0.89635356673023103" blue="0.94658180588017582" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQj-OP-68u">
+                                <rect key="frame" x="143" y="376" width="62" height="30"/>
+                                <state key="normal" title="VALIDER">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UpdateDone:" destination="hGU-x1-2KK" eventType="touchUpInside" id="jKX-7e-4o8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.96183484140243514" blue="0.64266932859032377" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="UpdateAnimalBtn" destination="loH-Qd-Qc6" id="XHD-ed-0mN"/>
+                        <outlet property="UpdateNameLabel" destination="DFw-sF-FjY" id="img-FO-Y7e"/>
+                        <outlet property="ValidateUpdate" destination="GQj-OP-68u" id="xyQ-IR-2dU"/>
                         <outlet property="animalAgeLabel" destination="8x9-uw-471" id="G4o-1Y-Lkm"/>
                         <outlet property="animalNameLabel" destination="8nS-yf-QK9" id="smu-ZN-ddI"/>
                         <outlet property="animalTypeLabel" destination="5cK-ES-oc9" id="jmq-G3-4iD"/>
@@ -213,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LwI-6X-Bce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="241" y="316"/>
+            <point key="canvasLocation" x="336" y="316"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
